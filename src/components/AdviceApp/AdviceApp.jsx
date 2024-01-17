@@ -1,4 +1,5 @@
 import styles from './AdviceApp.module.css'
+import DiceIcon from '../../assets/icon-dice.svg'
 import { useState, useEffect } from 'react'
 
 const Advice = () => {
@@ -67,7 +68,7 @@ const Advice = () => {
           <button onClick={handleSubmit}>
             <img
               className={styles.DadoIcon}
-              src="/src/assets/icon-dice.svg"
+              src={DiceIcon}
             />
           </button>
         </div>
