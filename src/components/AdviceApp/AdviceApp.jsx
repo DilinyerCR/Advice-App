@@ -60,7 +60,7 @@ const Advice = () => {
         </div>
 
         <div className={styles.IconContainer}>
-          <img src="/src/assets/pattern-divider-mobile.svg" alt="" />
+          
         </div>
 
         <div className={styles.ButtonContainer}>

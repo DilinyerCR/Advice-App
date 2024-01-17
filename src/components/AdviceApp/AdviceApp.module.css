@@ -36,8 +36,13 @@
     line-height: 3rem;
 }
 
-.IconContainer img {
+.IconContainer {
     width: 100%;
+    height: 20px;
+    background-image: url("/src/assets/pattern-divider-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .ButtonContainer {
@@ -94,6 +99,11 @@
 
     .MainContainer .DadoIcon {
         width: 26px;
+    }
+
+    .IconContainer {
+        height: 30px;
+        background-image: url("/src/assets/pattern-divider-desktop.svg");
     }
 }
 
