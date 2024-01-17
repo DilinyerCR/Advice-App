@@ -68,7 +68,6 @@ const Advice = () => {
             <img
               className={styles.DadoIcon}
               src="/src/assets/icon-dice.svg"
-              alt=""
             />
           </button>
         </div>
